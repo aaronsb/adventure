@@ -81,9 +81,9 @@ deciding. Pass `--solo` to drop the friend and play one-handed.
 ./setup.sh                                     # venv + deps, writes a .env stub
 # then put your key in .env:  ANTHROPIC_API_KEY=sk-...
 
-.venv/bin/python harness.py --selftest         # check plumbing, no API needed
-.venv/bin/python harness.py --turns 4          # short smoke run
-.venv/bin/python harness.py                    # full run
+./adventure.sh --selftest                      # check plumbing, no API needed
+./adventure.sh --turns 4                       # short smoke run
+./adventure.sh                                 # full run
 ```
 
 The reasoning streams to your terminal live, turn by turn — the player's

@@ -23,5 +23,5 @@ fi
 echo
 echo "Next:"
 echo "  1. put your key in .env :  ANTHROPIC_API_KEY=sk-..."
-echo "  2. check the plumbing   :  .venv/bin/python harness.py --selftest"
-echo "  3. play                 :  .venv/bin/python harness.py"
+echo "  2. check the plumbing   :  ./adventure.sh --selftest"
+echo "  3. play                 :  ./adventure.sh"
